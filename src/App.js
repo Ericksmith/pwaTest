@@ -1,8 +1,25 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 class App extends Component {
+  componentWillMount() {
+    let deferredPrompt;
+
+    window.addEventListener("beforeinstallprompt", e => {
+      // Prevent Chrome 67 and earlier from automatically showing the prompt
+      console.log(e);
+      e.preventDefault();
+      // Stash the event so it can be triggered later.
+      deferredPrompt = e;
+    });
+  }
+
+  handlePWA = () => {
+    console.log('click');
+  }
+
+
   render() {
     return (
       <div className="App">
@@ -19,6 +36,7 @@ class App extends Component {
           >
             Learn React
           </a>
+        <button onClick={this.handlePWA}>Install PWA</button>
         </header>
       </div>
     );
