@@ -24,5 +24,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://Ericksmith.github.io/pwaTest"
+  "homepage": "http://Ericksmith.github.io/pwaTest",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
