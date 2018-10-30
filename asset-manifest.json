@@ -1,0 +1,14 @@
+{
+  "main.css": "/pwaTest/static/css/main.3833e8fe.chunk.css",
+  "main.js": "/pwaTest/static/js/main.f17b1a25.chunk.js",
+  "main.js.map": "/pwaTest/static/js/main.f17b1a25.chunk.js.map",
+  "static/js/1.a700ff87.chunk.js": "/pwaTest/static/js/1.a700ff87.chunk.js",
+  "static/js/1.a700ff87.chunk.js.map": "/pwaTest/static/js/1.a700ff87.chunk.js.map",
+  "runtime~main.js": "/pwaTest/static/js/runtime~main.5c9253fa.js",
+  "runtime~main.js.map": "/pwaTest/static/js/runtime~main.5c9253fa.js.map",
+  "static/media/logo.svg": "/pwaTest/static/media/logo.5d5d9eef.svg",
+  "static/css/main.3833e8fe.chunk.css.map": "/pwaTest/static/css/main.3833e8fe.chunk.css.map",
+  "index.html": "/pwaTest/index.html",
+  "precache-manifest.13c5c6cc00e4214f8b133faf69057b8f.js": "/pwaTest/precache-manifest.13c5c6cc00e4214f8b133faf69057b8f.js",
+  "service-worker.js": "/pwaTest/service-worker.js"
+}
